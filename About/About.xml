@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ZeroCostImplants</name>
+	<author>NightKosh</author>
+	<packageId>NightKosh.ZeroCostImplants</packageId>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>
+		Installed implants and artificial body parts doesn't affects colonist price.
+	</description>
+</ModMetaData>
