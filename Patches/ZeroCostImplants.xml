@@ -3,13 +3,13 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[hediffClass="Hediff_Implant" and hediffClass]</xpath>
+				<xpath>Defs/HediffDef[hediffClass="Hediff_Implant" and priceImpact="true"]/priceImpact</xpath>
 				<value>
 					<priceImpact>false</priceImpact>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/HediffDef[hediffClass="Hediff_AddedPart" and hediffClass]</xpath>
+				<xpath>Defs/HediffDef[hediffClass="Hediff_AddedPart" and priceImpact="true"]/priceImpact</xpath>
 				<value>
 					<priceImpact>false</priceImpact>
 				</value>
