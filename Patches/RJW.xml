@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/rjw.HediffDef_PartBase[priceImpact="true"]/priceImpact</xpath>
-				<value>
-					<priceImpact>false</priceImpact>
-				</value>
-			</li>
-		</operations>
-	</Operation>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RimJobWorld</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/rjw.HediffDef_PartBase[priceImpact="true"]/priceImpact</xpath>
+                    <value>
+                        <priceImpact>false</priceImpact>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
 </Patch>
