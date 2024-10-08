@@ -12,6 +12,12 @@
                         <priceImpact>false</priceImpact>
                     </value>
                 </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/rjw.HediffDef_SexPart[priceImpact="true"]/priceImpact</xpath>
+                    <value>
+                        <priceImpact>false</priceImpact>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>
