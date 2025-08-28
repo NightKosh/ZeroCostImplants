@@ -7,7 +7,7 @@
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/rjw.HediffDef_PartBase[priceImpact="true"]/priceImpact</xpath>
+                    <xpath>Defs/rjw.HediffDef_SexPart[priceImpact="true"]/priceImpact</xpath>
                     <value>
                         <priceImpact>false</priceImpact>
                     </value>
